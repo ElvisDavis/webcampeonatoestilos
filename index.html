@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Llamamos al archivo estilos.css-->
+    <link rel="stylesheet" href="style/estilos.css">
+    <title>Campeonato de Fútbol Barrial</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Campeonato de Fútbol Barrial</h1>
+            <nav>
+                <a href="#inicio">Inicio</a>  
+                <a href="#equipos">Equipos</a>  
+                <a href="#calendario">Calendario</a>  
+                <a href="#videos">Videos</a>  
+                <a href="#galeria">Galeria</a> 
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </header>
+        
+        <div class="contenido">
+            <section id="inicio">
+                <h2>Bienvenidos al Campeonato</h2>
+                <img src="public/img/capeonato.webp" style="width: 100%;" alt="Imagen del campeonato">
+            </section>
+            
+            <section id="equipos">
+                <h2>Equipos Participantes</h2>
+                <ul>
+                    <li><img src="public/img/1.png" style="width: 30px;" alt="Escudo Equipo A"> Equipo A</li>
+                    <li><img src="public/img/2.png" style="width: 30px;" alt="Escudo Equipo B"> Equipo B</li>
+                    <li><img src="public/img/3.png" style="width: 30px;" alt="Escudo Equipo C"> Equipo C</li>
+                </ul>
+            </section>
+            
+            <section id="calendario">
+                <h2>Calendario de Partidos</h2>
+                <table border="1">
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Equipo 1</th>
+                        <th>Equipo 2</th>
+                        <th>Hora</th>
+                    </tr>
+                    <tr>
+                        <td>10/01/2024</td>
+                        <td><img src="public/img/1.png" style="width: 30px;" alt="Escudo Equipo A"> Equipo A</td>
+                        <td><img src="public/img/3.png" style="width: 30px;" alt="Escudo Equipo B"> Equipo B</td>
+                        <td>16:00</td>
+                    </tr>
+                </table>
+            </section>
+            
+            <section id="videos">
+                <h2>Videos Destacados</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/q9RSFj4erLw?si=AQBCORWKO922Ozql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            <section id="galeria" class="galeria">
+                <h2>Galería de Imágenes</h2>
+                <img src="public/img/1.png" alt="Galería 1">
+                <img src="public/img/2.png" alt="Galería 2">
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Campeonato de Fútbol Barrial - Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
